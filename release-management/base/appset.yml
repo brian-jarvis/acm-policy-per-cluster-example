@@ -49,6 +49,10 @@ spec:
           kind: ManagedClusterSet
           jsonPointers:
           - /
+        - group: agent.open-cluster-management.io
+          kind: KlusterletAddonConfig
+          jsonPointers:
+          - /
         - group: '*'
           kind: Namespace
           jsonPointers:

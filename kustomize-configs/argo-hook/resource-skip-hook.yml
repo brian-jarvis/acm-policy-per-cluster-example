@@ -19,6 +19,9 @@ fieldSpecs:
 - kind: ManagedClusterSetBinding
   path: metadata/annotations
   create: true
+- kind: KlusterletAddonConfig
+  path: metadata/annotations
+  create: true
 - kind: Placement
   path: metadata/annotations
   create: true

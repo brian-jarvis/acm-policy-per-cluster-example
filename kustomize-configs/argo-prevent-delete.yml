@@ -13,3 +13,6 @@ fieldSpecs:
 - kind: ManagedClusterSet
   path: metadata/annotations
   create: true
+- kind: KlusterletAddonConfig
+  path: metadata/annotations
+  create: true

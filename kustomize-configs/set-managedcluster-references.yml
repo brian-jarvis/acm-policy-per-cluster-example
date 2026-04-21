@@ -37,3 +37,13 @@ replacements:
     fieldPaths:
     - spec.clusterSet
     - metadata.name
+
+  - select:
+      kind: KlusterletAddonConfig
+    fieldPaths:
+    - metadata.name
+    - metadata.namespace
+    - spec.clusterName
+    - spec.clusterNamespace
+    - spec.clusterLabels.name
+    - spec.clusterLabels.[cluster.open-cluster-management.io/clusterset]
